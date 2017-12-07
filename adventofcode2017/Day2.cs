@@ -7,7 +7,7 @@ namespace adventofcode2017
 {
     public class Day2
     {
-         string input;
+        readonly string input;
 
         public Day2()
         {

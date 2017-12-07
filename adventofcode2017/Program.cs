@@ -6,7 +6,7 @@ namespace adventofcode2017
     {
         static void Main(string[] args)
         {
-            var day = new Day2();
+            var day = new Day4();
             Console.WriteLine(day.Solve());
         }
     }
