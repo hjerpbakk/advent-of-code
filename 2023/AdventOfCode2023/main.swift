@@ -1,4 +1,4 @@
 import Foundation
 
-print(sumOfPowerOfGames())
+print(sumOfPowerOfGamesImproved())
 
