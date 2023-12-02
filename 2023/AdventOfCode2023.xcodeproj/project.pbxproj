@@ -11,6 +11,8 @@
 		16090FAD2B1A112A00C3F7B0 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16090FAC2B1A112A00C3F7B0 /* 1.swift */; };
 		16090FAF2B1A130100C3F7B0 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16090FAE2B1A130100C3F7B0 /* utils.swift */; };
 		16090FB22B1A142000C3F7B0 /* input1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16090FB12B1A142000C3F7B0 /* input1.swift */; };
+		169F30B22B1B242800604A35 /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F30B12B1B242800604A35 /* 2.swift */; };
+		169F30B42B1B243900604A35 /* input2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F30B32B1B243900604A35 /* input2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		16090FAC2B1A112A00C3F7B0 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		16090FAE2B1A130100C3F7B0 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		16090FB12B1A142000C3F7B0 /* input1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input1.swift; sourceTree = "<group>"; };
+		169F30B12B1B242800604A35 /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
+		169F30B32B1B243900604A35 /* input2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				16090FAC2B1A112A00C3F7B0 /* 1.swift */,
+				169F30B12B1B242800604A35 /* 2.swift */,
 				16090FAE2B1A130100C3F7B0 /* utils.swift */,
 				16090FA52B1A111600C3F7B0 /* main.swift */,
 			);
@@ -75,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				16090FB12B1A142000C3F7B0 /* input1.swift */,
+				169F30B32B1B243900604A35 /* input2.swift */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16090FAF2B1A130100C3F7B0 /* utils.swift in Sources */,
+				169F30B22B1B242800604A35 /* 2.swift in Sources */,
 				16090FA62B1A111600C3F7B0 /* main.swift in Sources */,
+				169F30B42B1B243900604A35 /* input2.swift in Sources */,
 				16090FAD2B1A112A00C3F7B0 /* 1.swift in Sources */,
 				16090FB22B1A142000C3F7B0 /* input1.swift in Sources */,
 			);

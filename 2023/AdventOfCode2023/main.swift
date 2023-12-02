@@ -1,4 +1,4 @@
 import Foundation
 
-print(sumOfCalibrationValues2())
+print(sumOfPowerOfGames())
 
