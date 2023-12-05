@@ -3,4 +3,278 @@
    uuid = "BB2F2569-8192-4B0B-BD29-9F7C464BCB85"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E637AB5-2C1D-49A9-8721-25408E140925"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "lowestLocationNumber()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "3E637AB5-2C1D-49A9-8721-25408E140925 - 758a5e440dd1b84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "4056">
+               </Location>
+               <Location
+                  uuid = "3E637AB5-2C1D-49A9-8721-25408E140925 - 758a5e440dd1b84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "4084">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9533F073-1092-4051-851A-0492E73FC197"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "lowestLocationNumber()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21EF7BB5-C83D-4765-811B-3166CB655CCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "21EF7BB5-C83D-4765-811B-3166CB655CCF - e000c207c2b5fcdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "3060">
+               </Location>
+               <Location
+                  uuid = "21EF7BB5-C83D-4765-811B-3166CB655CCF - e000c207c2b5f3e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "2756">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBB6046F-DC98-4AD7-8025-362115A4FC2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F3F26F-9D35-4BEB-A848-332AB10612EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "910DB6C8-529B-4E75-8A77-2CD8EBADAF15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "910DB6C8-529B-4E75-8A77-2CD8EBADAF15 - e000c207c2b5fdb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "4080">
+               </Location>
+               <Location
+                  uuid = "910DB6C8-529B-4E75-8A77-2CD8EBADAF15 - e000c207c2b5fdd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "4200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEDC8A47-FEEE-4344-8344-821451E7DC9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45541C48-B523-4064-9A2C-7CA36A586A22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEBD1F33-BE07-4BA5-933B-830E632DEBD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2023/5.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "lowestLocationNumber2()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "CEBD1F33-BE07-4BA5-933B-830E632DEBD3 - e000c207c2b5f3a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "2784">
+               </Location>
+               <Location
+                  uuid = "CEBD1F33-BE07-4BA5-933B-830E632DEBD3 - e000c207c2b5f386"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2023.lowestLocationNumber2() -&gt; Swift.Int"
+                  moduleName = "AdventOfCode2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hjerpbakk/projects/advent-of-code/2023/AdventOfCode2023/5.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "2956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -1,4 +1,2 @@
-import Foundation
-
-print(totalScratchCards())
+print(lowestLocationNumber2())
 
