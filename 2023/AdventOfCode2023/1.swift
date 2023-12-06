@@ -10,7 +10,7 @@ func sumOfCalibrationValues() -> Int {
     return sum
 }
 
-func sumOfCalibrationValues2() -> Int {
+/*func sumOfCalibrationValues2() -> Int {
     let lines = calibrationDocument.split(separator: "\n")
     var sum = 0
     for line in lines {
@@ -21,4 +21,4 @@ func sumOfCalibrationValues2() -> Int {
     }
     
     return sum
-}
+}*/

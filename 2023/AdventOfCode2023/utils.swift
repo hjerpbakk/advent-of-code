@@ -19,7 +19,7 @@ func firstAndLastNumber(_ string: String) -> (first: Character, last: Character)
     return (first: firstNumber, last: lastNumber)
 }
 
-func rewriteNumberStringsAsNumber(_ string: String) -> String {
+/*func rewriteNumberStringsAsNumber(_ string: String) -> String {
     let stringNumbers = [("one", 1), ("two", 2), ("three", 3), ("four", 4), ("five", 5), ("six", 6), ("seven", 7), ("eight", 8), ("nine", 9)]
     var newString = string
     var positionsInString: [(String.Index, (String, Int))] = []
@@ -27,8 +27,8 @@ func rewriteNumberStringsAsNumber(_ string: String) -> String {
     for stringNumber in stringNumbers {
         var startIndex = string.startIndex
         while startIndex < string.endIndex,
-              let range = string.range(of: stringNumber.0, range: startIndex..<string.endIndex) {
-            positionsInString.append((range.lowerBound, stringNumber))
+            //  let range = string.range(of: stringNumber.0, range: startIndex..<string.endIndex) {
+            //positionsInString.append((range.lowerBound, stringNumber))
             startIndex = range.upperBound
         }
     }
@@ -42,4 +42,4 @@ func rewriteNumberStringsAsNumber(_ string: String) -> String {
     }
 
     return newString
-}
+}*/
