@@ -37,25 +37,20 @@ func marginOfError() -> Int {
 
 func marginOfErrorLong() -> Int {
     //let records = recordsExample
-    let initialSpeed = 0
-    let acceleration = 1
-    var waysToBeatTheRecord = 0
-    
+        
     let rows = records.split(separator: "\n")
     let times = rows[0].split(separator: ":")[1].replacing(" ", with: "")
     let distances = rows[1].split(separator: ":")[1].replacing(" ", with: "")
+
     let time = Int(times)!
     let record = Int(distances)!
-    
-    var speed = initialSpeed
-    for i in 1...time-1 {
-        speed = speed + acceleration
-        let distance = speed * (time - i)
+    var waysToBeatTheRecord = 0
+    for i in 1..<time {
+        let distance = i * (time - i)
         if distance > record {
-            waysToBeatTheRecord = waysToBeatTheRecord + 1
+            waysToBeatTheRecord += 1
         }
     }
-    
+
     return waysToBeatTheRecord
 }
-
