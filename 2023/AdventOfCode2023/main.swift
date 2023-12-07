@@ -1,2 +1,2 @@
-print(marginOfErrorLong())
+print(totalWinningsJoker())
 
