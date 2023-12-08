@@ -2,7 +2,7 @@ import Foundation
 
 let start = Date()
 
-let result = numberOfStepsNodesEndingInZ()
+let result = numberOfStepsNodesEndingInZMarkus()
 
 let end = Date()
 

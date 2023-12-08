@@ -101,19 +101,12 @@ func numberOfStepsNodesEndingInZ() -> Int {
     }
     
     return result
-}
-
-private func gcd(_ a: Int, _ b: Int) -> Int {
-    var a = a
-    var b = b
-    while b != 0 {
-        let temp = b
-        b = a % b
-        a = temp
+    
+    func gcd(_ a: Int, _ b: Int) -> Int {
+        return b == 0 ? a : gcd(b, a % b)
     }
-    return a
-}
-
-private func lcm(_ a: Int, _ b: Int) -> Int {
-    return (a * b) / gcd(a, b)
+    
+    func lcm(_ a: Int, _ b: Int) -> Int {
+        return a / gcd(a, b) * b
+    }
 }
