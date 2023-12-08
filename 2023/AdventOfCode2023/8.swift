@@ -83,7 +83,6 @@ func numberOfStepsNodesEndingInZ() -> Int {
                 let nextNode = nodes[i][instruction]
                 if nextNode.last == "Z" {
                     stepsList.append(steps)
-                    print(steps)
                     endsWithZ = true
                 } else {
                     nodes[i] = map[nextNode]!
