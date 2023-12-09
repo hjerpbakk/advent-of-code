@@ -2,7 +2,7 @@ import Foundation
 
 let start = Date()
 
-let result = numberOfStepsNodesEndingInZMarkus()
+let result = sumOfExtrapolatedValues2()
 
 let end = Date()
 
