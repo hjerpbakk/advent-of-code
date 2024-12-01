@@ -2,7 +2,7 @@ import Foundation
 
 let start = Date()
 
-let result = sumOfExtrapolatedValues2()
+let result = numberOfStepsToFarthestPoint()
 
 let end = Date()
 
