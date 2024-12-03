@@ -16,5 +16,5 @@ func measureExecutionTime<T>(for function: () -> T, label: String) -> T {
     return result
 }
 
-let result1 = measureExecutionTime(for: day2_part1, label: "Part 1")
-let result2 = measureExecutionTime(for: day2_part2, label: "Part 2")
+let result1 = measureExecutionTime(for: day3_part1, label: "Part 1")
+let result2 = measureExecutionTime(for: day3_part2, label: "Part 2")
