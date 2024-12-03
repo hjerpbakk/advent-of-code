@@ -31,20 +31,17 @@ func day3_part1() -> Int {
 }
 
 func day3_part2() -> Int {
-    let mulPattern = #"mul\((\d+),(\d+)\)"#
-    let doPattern = #"do\(\)"#
-    let dontPattern = #"don't\(\)"#
-    let allPatterns = "\(mulPattern)|\(doPattern)|\(dontPattern)"
-
-    let doRegex = try! NSRegularExpression(pattern: doPattern)
-    let dontRegex = try! NSRegularExpression(pattern: dontPattern)
-    let regex = try! NSRegularExpression(pattern: allPatterns)
+    let pattern = #"mul\((\d+),(\d+)\)|do\(\)|don't\(\)"#
+    let regex = try! NSRegularExpression(pattern: pattern)
     
     var isEnabled = true
     var sum = 0
+    
     let matches = regex.matches(in: input3, range: NSRange(input3.startIndex..., in: input3))
     for match in matches {
-        if let mulRange = Range(match.range(at: 0), in: input3),
+        if (Range(match.range(at: 0), in: input3) != nil),
+           match.range(at: 1).location != NSNotFound,
+           match.range(at: 2).location != NSNotFound,
            let xRange = Range(match.range(at: 1), in: input3),
            let yRange = Range(match.range(at: 2), in: input3),
            let x = Int(input3[xRange]),
@@ -52,14 +49,12 @@ func day3_part2() -> Int {
             if isEnabled {
                 sum += x * y
             }
-        }
-        else if let doRange = Range(match.range(at: 0), in: input3),
-                doRegex.firstMatch(in: input3, range: NSRange(doRange, in: input3)) != nil {
-            isEnabled = true
-        }
-        else if let dontRange = Range(match.range(at: 0), in: input3),
-                dontRegex.firstMatch(in: input3, range: NSRange(dontRange, in: input3)) != nil {
-            isEnabled = false
+        } else if let command = Range(match.range(at: 0), in: input3) {
+            if input3[command] == "do()" {
+                isEnabled = true
+            } else if input3[command] == "don't()" {
+                isEnabled = false
+            }
         }
     }
     
