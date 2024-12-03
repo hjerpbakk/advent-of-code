@@ -50,7 +50,6 @@ func day3_part2() -> Int {
            let x = Int(input3[xRange]),
            let y = Int(input3[yRange]) {
             if isEnabled {
-                let startIndex = input3.distance(from: input3.startIndex, to: mulRange.lowerBound)
                 sum += x * y
             }
         }
